@@ -109,6 +109,7 @@
 		9A7179B420532906005E35EF /* GMSPanoramaSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaSource.h; sourceTree = "<group>"; };
 		9A82E5F620515B2800B97E12 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		9A82E5F820515B4C00B97E12 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9AAF902620534F9800478CEC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B9234B4B1D9E2C1D001EE0B5 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		B9234B4C1D9E2C68001EE0B5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		B9EE036D1D9D8429003E7610 /* GoogleMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -267,6 +268,7 @@
 		B9EE03631D9D8429003E7610 = {
 			isa = PBXGroup;
 			children = (
+				9AAF902620534F9800478CEC /* README.md */,
 				B9EE036F1D9D8429003E7610 /* GoogleMaps */,
 				B9EE037E1D9D843B003E7610 /* GoogleMapsBase */,
 				B9EE038B1D9D8444003E7610 /* GoogleMapsCore */,
