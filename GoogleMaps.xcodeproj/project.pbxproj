@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A2046E62053321E0023FACD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A31D9D84EC003E7610 /* Security.framework */; };
 		9A7179AF2052C9D4005E35EF /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03AD1D9D857A003E7610 /* GoogleMapsCore */; };
 		9A7179B02052CA18005E35EF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A82E5F820515B4C00B97E12 /* CoreTelephony.framework */; };
 		9A7179B12052CA26005E35EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A51D9D8500003E7610 /* SystemConfiguration.framework */; };
@@ -187,6 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2046E62053321E0023FACD /* Security.framework in Frameworks */,
 				9A82E5FB20515BAA00B97E12 /* SystemConfiguration.framework in Frameworks */,
 				9A82E5F920515B4C00B97E12 /* CoreTelephony.framework in Frameworks */,
 				9A82E5F720515B2800B97E12 /* CoreImage.framework in Frameworks */,
