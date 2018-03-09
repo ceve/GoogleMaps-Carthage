@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9A82E5B42050A9A600B97E12 /* GMSPanoramaSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A82E5B22050A9A500B97E12 /* GMSPanoramaSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A82E5B52050A9A600B97E12 /* GMSDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A82E5B32050A9A600B97E12 /* GMSDeprecationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A82E5F420515AFB00B97E12 /* GoogleMapsM4B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE049A1D9D9478003E7610 /* GoogleMapsM4B.framework */; };
 		9A82E5F520515B1100B97E12 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03AB1D9D8518003E7610 /* CoreData.framework */; };
 		9A82E5F720515B2800B97E12 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A82E5F620515B2800B97E12 /* CoreImage.framework */; };
 		9A82E5F920515B4C00B97E12 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A82E5F820515B4C00B97E12 /* CoreTelephony.framework */; };
@@ -194,7 +193,6 @@
 				9A82E5F920515B4C00B97E12 /* CoreTelephony.framework in Frameworks */,
 				9A82E5F720515B2800B97E12 /* CoreImage.framework in Frameworks */,
 				9A82E5F520515B1100B97E12 /* CoreData.framework in Frameworks */,
-				9A82E5F420515AFB00B97E12 /* GoogleMapsM4B.framework in Frameworks */,
 				B9EE04201D9D88AA003E7610 /* libc++.tbd in Frameworks */,
 				B9EE04221D9D88D6003E7610 /* Foundation.framework in Frameworks */,
 				B9EE04211D9D88BA003E7610 /* UIKit.framework in Frameworks */,
