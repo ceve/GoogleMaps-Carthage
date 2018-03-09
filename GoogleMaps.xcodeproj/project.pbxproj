@@ -15,7 +15,6 @@
 		9A82E5F520515B1100B97E12 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03AB1D9D8518003E7610 /* CoreData.framework */; };
 		9A82E5F720515B2800B97E12 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A82E5F620515B2800B97E12 /* CoreImage.framework */; };
 		9A82E5F920515B4C00B97E12 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A82E5F820515B4C00B97E12 /* CoreTelephony.framework */; };
-		9A82E5FA20515B7B00B97E12 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A11D9D84E3003E7610 /* libz.tbd */; };
 		9A82E5FB20515BAA00B97E12 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A51D9D8500003E7610 /* SystemConfiguration.framework */; };
 		B9234B4D1D9E2C68001EE0B5 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9234B4C1D9E2C68001EE0B5 /* GoogleMaps.bundle */; };
 		B9EE03721D9D8429003E7610 /* GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03701D9D8429003E7610 /* GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,7 +55,6 @@
 		B9EE03F31D9D87DA003E7610 /* GMSCameraUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03CD1D9D87DA003E7610 /* GMSCameraUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03F41D9D87DA003E7610 /* GMSCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03CE1D9D87DA003E7610 /* GMSCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03F51D9D87DA003E7610 /* GMSCoordinateBounds+GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03CF1D9D87DA003E7610 /* GMSCoordinateBounds+GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9EE03F61D9D87DA003E7610 /* GMSDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03D01D9D87DA003E7610 /* GMSDeprecationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03F71D9D87DA003E7610 /* GMSGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03D11D9D87DA003E7610 /* GMSGeocoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03F81D9D87DA003E7610 /* GMSGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03D21D9D87DA003E7610 /* GMSGeometryUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03F91D9D87DA003E7610 /* GMSGroundOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03D31D9D87DA003E7610 /* GMSGroundOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -147,7 +145,6 @@
 		B9EE03CD1D9D87DA003E7610 /* GMSCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCameraUpdate.h; sourceTree = "<group>"; };
 		B9EE03CE1D9D87DA003E7610 /* GMSCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCircle.h; sourceTree = "<group>"; };
 		B9EE03CF1D9D87DA003E7610 /* GMSCoordinateBounds+GoogleMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMSCoordinateBounds+GoogleMaps.h"; sourceTree = "<group>"; };
-		B9EE03D01D9D87DA003E7610 /* GMSDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSDeprecationMacros.h; sourceTree = "<group>"; };
 		B9EE03D11D9D87DA003E7610 /* GMSGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSGeocoder.h; sourceTree = "<group>"; };
 		B9EE03D21D9D87DA003E7610 /* GMSGeometryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSGeometryUtils.h; sourceTree = "<group>"; };
 		B9EE03D31D9D87DA003E7610 /* GMSGroundOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSGroundOverlay.h; sourceTree = "<group>"; };
@@ -191,7 +188,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A82E5FB20515BAA00B97E12 /* SystemConfiguration.framework in Frameworks */,
-				9A82E5FA20515B7B00B97E12 /* libz.tbd in Frameworks */,
 				9A82E5F920515B4C00B97E12 /* CoreTelephony.framework in Frameworks */,
 				9A82E5F720515B2800B97E12 /* CoreImage.framework in Frameworks */,
 				9A82E5F520515B1100B97E12 /* CoreData.framework in Frameworks */,
@@ -669,7 +665,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;				
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -682,7 +678,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;				
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
