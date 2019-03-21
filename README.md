@@ -1,6 +1,6 @@
 This repo is the Google Maps API for iOS that you can install using Carthage.  Unfortunately, Google does not natively support Carthage, instead requiring CocoaPods or manual integration, and according to this issue https://issuetracker.google.com/issues/35827791, it seems like official support won't be coming soon.
 
-This repo is up to date as of 2.6.0
+This repo is up to date as of 3.03
 
 In the event that a more recent version is available and not integrated, here's how to do it:
 
@@ -20,6 +20,5 @@ In the event that a more recent version is available and not integrated, here's 
 6. You may have to read over the GoogleMaps manual installation instructions as required frameworks may have been added.  Compare the requirements with what is specified in the target's `Build Phases`/`Link Binary with Libraries`
 7. (Optional) - Submit a pull request so I can pick up your changes!
 
-This repo was forked from https://github.com/leoneparise/GoogleMaps-Carthage. Unfortunately, it erratically updated and the Places API has not been updated since 2.1.0.
-
+This repo was forked from https://github.com/leoneparise/GoogleMaps-Carthage. 
 
