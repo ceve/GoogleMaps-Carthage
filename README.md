@@ -1,6 +1,6 @@
 This repo is the Google Maps API for iOS that you can install using Carthage.  Unfortunately, Google does not natively support Carthage, instead requiring CocoaPods or manual integration, and according to this issue https://issuetracker.google.com/issues/35827791, it seems like official support won't be coming soon.
 
-This repo is up to date as of 3.03
+This repo is up to date as of 3.0.3
 
 In the event that a more recent version is available and not integrated, here's how to do it:
 
