@@ -142,7 +142,7 @@
 		B9EE04A21D9D9480003E7610 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE036D1D9D8429003E7610 /* GoogleMaps.framework */; };
 		B9EE04A41D9D94A0003E7610 /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04A31D9D94A0003E7610 /* GoogleMapsM4B */; };
 		B9EE04A51D9D94CE003E7610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE039D1D9D84D8003E7610 /* Foundation.framework */; };
-		CF57D7432243E7BE00937134 /* GMSPolygonLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CF57D7422243E7BE00937134 /* GMSPolygonLayer.h */; };
+		CF0599762244429F0022529B /* GMSPolygonLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0599752244429F0022529B /* GMSPolygonLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -253,6 +253,7 @@
 		B9EE049A1D9D9478003E7610 /* GoogleMapsM4B.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMapsM4B.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EE049D1D9D9478003E7610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9EE04A31D9D94A0003E7610 /* GoogleMapsM4B */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GoogleMapsM4B; sourceTree = "<group>"; };
+		CF0599752244429F0022529B /* GMSPolygonLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GMSPolygonLayer.h; path = GoogleMaps/Headers/GMSPolygonLayer.h; sourceTree = "<group>"; };
 		CF57D7422243E7BE00937134 /* GMSPolygonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPolygonLayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -528,6 +529,7 @@
 		B9EE03631D9D8429003E7610 = {
 			isa = PBXGroup;
 			children = (
+				CF0599752244429F0022529B /* GMSPolygonLayer.h */,
 				B9EE03981D9D84CC003E7610 /* Frameworks */,
 				B9EE036F1D9D8429003E7610 /* GoogleMaps */,
 				B9EE037E1D9D843B003E7610 /* GoogleMapsBase */,
@@ -656,12 +658,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B54FAF21417C7000A99A88 /* GMSCameraUpdate.h in Headers */,
+				CF0599762244429F0022529B /* GMSPolygonLayer.h in Headers */,
 				15B54FCD21417C7000A99A88 /* GMSProjection.h in Headers */,
 				15B54FB721417C7000A99A88 /* GMSPanorama.h in Headers */,
 				15B54FB321417C7000A99A88 /* GMSOrientation.h in Headers */,
 				15B54FAB21417C7000A99A88 /* GMSServices.h in Headers */,
 				15B54FC021417C7000A99A88 /* GMSAddress.h in Headers */,
-				CF57D7432243E7BE00937134 /* GMSPolygonLayer.h in Headers */,
 				15B54FAC21417C7000A99A88 /* GMSIndoorDisplay.h in Headers */,
 				15B54FAA21417C7000A99A88 /* GMSMapView.h in Headers */,
 				15B54FBF21417C7000A99A88 /* GMSCameraPosition.h in Headers */,
